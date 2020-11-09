@@ -1,5 +1,4 @@
-import 'package:check_list_heavy_machinery/pages/models/vehiculeModel.dart';
-import 'package:flutter/material.dart';
+
 
 class CheckPoints {
   List<BoolQuestion> _checkList = new List();
