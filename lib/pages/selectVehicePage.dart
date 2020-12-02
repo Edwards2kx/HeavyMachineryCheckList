@@ -43,19 +43,6 @@ class SelectVehiclePage extends StatelessWidget {
               lastCheck: '17/10/2020',
             ),
           ]),
-          // child: GridView.count(
-          //   crossAxisSpacing: 10.0,
-          //   mainAxisSpacing: 10.0,
-          //   crossAxisCount: 2,
-          //   children: [
-          //     VehicleCard(vehicles.getVehicle(0)),
-          //     VehicleCard(vehicles.getVehicle(1)),
-          //     VehicleCard(vehicles.getVehicle(2)),
-          //     VehicleCard(vehicles.getVehicle(3)),
-          //     VehicleCard(vehicles.getVehicle(4)),
-          //     VehicleCard(vehicles.getVehicle(5)),
-          //   ],
-          // ),
         ),
       ),
     );
@@ -209,6 +196,18 @@ class VehicleCard extends StatelessWidget {
             ],
           ),
         ),
+      ),
+    );
+  }
+}
+
+
+class NewCard extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      decoration: BoxDecoration(
+        color: Colors.green
       ),
     );
   }
